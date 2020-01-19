@@ -1,0 +1,35 @@
+{
+	"style" : "default",
+	"config" : "save_王者荣耀刷冒险.dat",
+	"width" : 540,
+	"height" : 960,
+	"cancelscroll" : true,
+	"countdown" : 100,
+	"cancelname":"退出",
+	"okname" : "退出",
+	"views" : [
+		{
+	        "text" : "错误！",
+	        "type" : "Page",
+	        "views" : [
+			            {
+	                        "align" : "left",
+	                        "color" : "0,0,0",
+	                        "size" : "20",
+	                        "text" : "--------------------运行错误！--------------------
+							使用说明：
+							1、装好铭文，选好能自动过的冒险。
+							2、必须在下图界面下开始脚本
+							*脚本交流群：777526018（加群领取永久免费版）
+							",
+	                        "bg" : "255,255,255",
+	                        "type" : "Label"
+                        },
+			{
+	            "src" : "闯关.png", 
+	            "type" : "Image"
+            }
+	        ]
+        }
+	]
+}

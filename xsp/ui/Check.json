@@ -1,0 +1,31 @@
+{
+	"style" : "default",
+	"config" : "save_Get_QQ.dat",
+	"width" : 540,
+	"height" : 600,
+	"cancelscroll" : true,
+	"countdown" : 60,
+	"cancelname" : "取消",
+	"okname" : "确定",
+	"views" : [
+		{
+	        "align" : "left",
+	        "color" : "0,0,0",
+	        "size" : "30",
+	        "text" : "请先加群。QQ群：777526018
+				输入你的QQ号：",
+	        "bg" : "255,255,255",
+	        "type" : "Label"
+        },
+		{
+	        "id" : "QQ_key",
+	        "align" : "left",
+	        "color" : "0,0,0",
+	        "kbtype" : "number",
+	        "prompt" : "",
+	        "size" : "25",
+	        "text" : "",
+	        "type" : "Edit"
+        }
+	]
+}

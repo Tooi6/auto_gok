@@ -1,0 +1,91 @@
+{
+	"style" : "default",
+	"config" : "save_【Tooi】王者荣耀脚本.dat",
+	"width" : 540,
+	"height" : 960,
+	"cancelscroll" : true,
+	"countdown" : 200,
+	"cancelname" : "取消",
+	"okname" : "确定",
+	"views" : [
+		{
+	        "text" : "基本设置",
+	        "type" : "Page",
+	        "views" : [
+				{
+	        "align" : "left",
+	        "color" : "0,0,0",
+	        "size" : 20,
+	        "text" : "请输入英雄位置：",
+	        "bg" : "255,255,225",
+	        "type" : "Label"
+        },
+		{
+	        "id" : "hero_loc",
+	        "align" : "left",
+	        "color" : "0,0,0",
+	        "kbtype" : "number",
+	        "prompt" : "不会看说明",
+	        "size" : 25,
+			"with" : 5,
+	        "text" : "",
+	        "type" : "Edit"
+        },
+		{
+	        "align" : "left",
+	        "color" : "0,0,0",
+	        "size" : 20,
+	        "text" : "英雄技能数：",
+	        "bg" : "255,255,225",
+	        "type" : "Label"
+        },
+		{
+	        "id" : "skill_n",
+	        "list" : "3,4",
+	        "select" : "0",
+	        "size" : 30,
+	        "type" : "ComboBox"
+        }
+	        ]
+        },
+		{
+	        "text" : "使用说明",
+	        "type" : "Page",
+	        "views" : [
+				{
+	                "align" : "left",
+	                "color" : "0,0,0",
+	                "size" : 20,
+	                "text" : "英雄位置格式为：[位置],[x],[y] (位置对应的就是1(坦克)，2（战士），3（刺客）... 
+					x,y代表第几行第几列)
+						比如曹操。就填：2,1,5。
+						老夫子就填：2,2,2
+					**逗号必须是英文的逗号！！",
+	                "bg" : "255,255,225",
+	                "type" : "Label"
+                },
+				{
+	                "src" : "hero.png", 
+	                "type" : "Image"
+                },
+				{
+	                "align" : "left",
+	                "color" : "0,0,0",
+	                "size" : 20,
+	                "text" : "每个人的都不一样，自己先开一局看看你的英雄在哪",
+	                "bg" : "255,255,225",
+	                "type" : "Label"
+                },
+				{
+	                "align" : "left",
+	                "color" : "0,0,0",
+	                "size" : 20,
+	                "text" : "4技能的英雄技能数记得选4",
+	                "bg" : "255,255,225",
+	                "type" : "Label"
+                }
+	        ]
+        }
+		
+	]
+}

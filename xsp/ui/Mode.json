@@ -1,0 +1,30 @@
+{
+	"style" : "default",
+	"config" : "save_王者荣耀刷冒险.dat",
+	"width" : 540,
+	"height" : 600,
+	"cancelscroll" : true,
+	"countdown" : 50,
+	"cancelname" : "取消",
+	"okname" : "确定",
+	"views" : [
+		{
+	        "align" : "left",
+	        "color" : "0,0,0",
+	        "size" : "20",
+	        "text" : "选择模式：",
+	        "bg" : "255,255,255",
+	        "type" : "Label"
+        },
+		
+		{
+	        "id" : "mode",
+	        "list" : "刷冒险,送金币,自动5v5人机,",
+	        "select" : "0",
+	        "size" : "30",
+	        "type" : "RadioGroup",
+	        "orientation" : "vertical",
+	        "color" : "0,0,225"
+        }
+	]
+}

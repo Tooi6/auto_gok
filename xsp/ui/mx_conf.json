@@ -1,0 +1,65 @@
+{
+	"style" : "default",
+	"config" : "save_【Tooi】王者荣耀脚本.dat",
+	"width" : 540,
+	"height" : 960,
+	"cancelscroll" : true,
+	"countdown" : 50,
+	"okname" : "确定",
+	"views" : [
+		
+		{
+	        "align" : "left",
+	        "color" : "0,0,0",
+	        "size" : "25",
+	        "text" : "请输入要刷几局",
+	        "bg" : "255,255,255",
+	        "type" : "Label"
+        },
+		{
+	        "id" : "Num",
+	        "align" : "left",
+	        "color" : "0,0,0",
+	        "kbtype" : "number",
+	        "prompt" : "",
+	        "size" : "25",
+	        "text" : "",
+	        "type" : "Edit"
+        },
+		{
+	        "id" : "F_Mode",
+	        "list" : "防封号模式",
+	        "select" : "0@2",
+	        "size" : "30",
+	        "type" : "CheckBoxGroup",
+	        "orientation" : "horizontal",
+	        "color" : "0,0,225"
+        },
+		{
+	        "id" : "End_exie",
+	        "list" : "刷完自动退出游戏",
+	        "select" : "0@2",
+	        "size" : "30",
+	        "type" : "CheckBoxGroup",
+	        "orientation" : "horizontal",
+	        "color" : "0,0,225"
+        },
+		{
+	        "align" : "left",
+	        "color" : "255,0,0",
+	        "size" : "20",
+	        "text" : "*防封号模式刷起来比较慢",
+	        "bg" : "255,255,255",
+	        "type" : "Label"
+        },
+		{
+	        "align" : "left",
+	        "color" : "255,0,0",
+	        "size" : "20",
+	        "text" : "*理论上可以刷所有关卡，有的关卡可能不会点自动，自己点一次就好",
+	        "bg" : "255,255,225",
+	        "type" : "Label"
+        }
+		
+	]
+}
